@@ -1,4 +1,5 @@
 # device-detect
+# Light weight and easy to integrate
 This library will let you know that which in which device you working on and you can target desktop, mobile, tablet specifically.
 
 Include this file in your file's head tag
