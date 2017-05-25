@@ -4,7 +4,7 @@ This library will let you know that which in which device you working on and you
 
 Include this file in your file's head tag
 ```
-<script type="text/javascript" src="device-detect.min.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/anshuman91/device-detect/master/device-detect.min.js"></script>
 ```
 # Usage
 ```
