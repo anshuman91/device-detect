@@ -14,6 +14,10 @@
         _this_device = this;
         // property for targetting only mobile devices.
         this.isMobile = { 
+            // public method for targetting only Windows mobile device.
+            Windows: function() {
+                return (navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/Windows Phone/i) || navigator.userAgent.match(/WPDesktop/i));
+            },
             // public method for targetting only Android device.
             Android: function() {
                 return navigator.userAgent.match(/Android/i);
@@ -29,10 +33,6 @@
             // public method for targetting only IOS Opera mini device.
             Opera: function() {
                 return navigator.userAgent.match(/Opera Mini/i);
-            },
-            // public method for targetting only Windows mobile device.
-            Windows: function() {
-                return (navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/Windows Phone/i) || navigator.userAgent.match(/WPDesktop/i));
             },
             // public method for targetting any mobile device.
             any: function() {
