@@ -36,7 +36,7 @@
             },
             // public method for targetting any mobile device.
             any: function() {
-                return (this.Android() || this.BlackBerry() || this.iOS() || this.Opera() || this.Windows());
+                return (this.Windows() || this.Android() || this.BlackBerry() || this.iOS() || this.Opera());
             }
         },
         // property for targetting only tablet devices.
