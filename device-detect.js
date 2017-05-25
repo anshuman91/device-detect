@@ -32,7 +32,7 @@
             },
             // public method for targetting only Windows mobile device.
             Windows: function() {
-                return navigator.userAgent.match(/IEMobile/i);
+                return (navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/Windows Phone/i) || navigator.userAgent.match(/WPDesktop/i));
             },
             // public method for targetting any mobile device.
             any: function() {
